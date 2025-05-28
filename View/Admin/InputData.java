@@ -65,10 +65,6 @@ public class InputData extends JFrame{
         passwordField.setBounds(50, 96, 440,24);
         login.setBounds(20, 160, 215,40);
         
-        login.addActionListener(new ActionListener(){
-            public void actionPerformed(ActionEvent e){
-                dispose();
-                new InputData();
-            }});    
-        }
-    }
+
+       
+    }}
