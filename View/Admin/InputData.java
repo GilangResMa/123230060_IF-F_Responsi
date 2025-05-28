@@ -34,6 +34,7 @@ public class InputData extends JFrame{
     JButton clearButton = new JButton("Clear");
     
     public InputData(){
+        controller = new ControllerAdmin(this);
         setTitle("Login Page");
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
